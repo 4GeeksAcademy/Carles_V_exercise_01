@@ -1,0 +1,55 @@
+html{
+    background-color: black;
+}
+
+body{
+    
+}
+.wrapper{
+    width: 400px;
+    display: block;
+    margin-left: 20%;
+    border-style: solid;
+    padding: 5px;
+    background-color: white;
+}
+
+.header{
+    display: flex; 
+    width: 100%; 
+    height: 80px;
+}
+.logoHTML5{
+
+    width: 30px;
+    height: 30px;
+}
+.header p{
+    float: left;
+    display: inline;
+    
+}
+.threedots{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-left: 280px;
+
+}
+
+.main{
+    width: 100%;
+}
+.main img{
+    width: 100%;
+}
+.awesome{
+    align-items: flex-start;
+    flex-direction: row;
+}
+i.fa.fa-bookmark-o {
+    float: right;
+}
+.footer p {
+    display: block;
+}
