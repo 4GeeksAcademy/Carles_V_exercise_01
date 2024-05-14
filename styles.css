@@ -2,54 +2,60 @@ html{
     background-color: black;
 }
 
-body{
-    
-}
 .wrapper{
     width: 400px;
     display: block;
     margin-left: 20%;
     border-style: solid;
     padding: 5px;
-    background-color: white;
+    background-color: #f1f1f1;
 }
 
-.header{
-    display: flex; 
-    width: 100%; 
-    height: 80px;
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+  margin-bottom: 5px;
 }
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  color: black;
+  width: auto;
+  margin: 5px;
+  text-align: left;
+  font-size: 15px;
+  background-color: #f1f1f1;
+}
+
 .logoHTML5{
 
     width: 30px;
     height: 30px;
 }
-.header p{
-    float: left;
-    display: inline;
-    
-}
 .threedots{
     width: 30px;
     height: 30px;
-    float: right;
-    margin-left: 280px;
+    float:right;
+    margin-left: 250px;
 
 }
-
 .main{
     width: 100%;
+    margin-bottom: -3px;
 }
-.main img{
-    width: 100%;
-}
+
 .awesome{
     align-items: flex-start;
     flex-direction: row;
+    display: inline-block;
 }
+
 i.fa.fa-bookmark-o {
     float: right;
+    margin-left: 220px;
 }
-.footer p {
-    display: block;
+.texto1{
+
+  margin-top: -10px;
+  margin-left: 10px;
 }
