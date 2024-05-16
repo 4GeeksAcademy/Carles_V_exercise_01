@@ -8,23 +8,23 @@ html{
     margin-left: 20%;
     border-style: solid;
     padding: 5px;
-    background-color: #f1f1f1;
+    background-color: white;
 }
 
 .flex-container {
   display: flex;
-  background-color: #f1f1f1;
+  background-color: white;
   margin-bottom: 5px;
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: white;
   color: black;
   width: auto;
   margin: 5px;
   text-align: left;
   font-size: 15px;
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
 .logoHTML5{
@@ -53,9 +53,15 @@ html{
 i.fa.fa-bookmark-o {
     float: right;
     margin-left: 220px;
+    font-size: xx-large;
 }
 .texto1{
 
   margin-top: -10px;
   margin-left: 10px;
+}
+i.fa.fa-ellipsis-v {
+    font-size: x-large;
+    float:right;
+    margin-left: 270px;
 }
